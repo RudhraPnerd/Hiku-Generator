@@ -1,8 +1,12 @@
-CHARACTER_LIST = [">o", ":)", ":|", "^*^"]
-CHARACTER = "^*^" #If you want a custom kaomoji instead of using one of the presets, go into the list and add you custom
-                  #one. Then, in the CHARACTER variable, type the kaomoji within the double quotes. DO NOT ADD CUSTOM IF
-                  #THE CUSTOM ONE IS NOT IN THE LIST. THIS COULD LEAD TO SERIOUS ERRORS TO THE PROJECT
-SCREEN_TYPE_LIST = ["Console", "Window"]
+CHARACTER = "^*^" #You can pick from a wide range of kaomojis to choose from in the haiku_characters.txt file which is
+                  #stored in assets/characters/haiku_characters.txt
+VANISH_CHARACTER = "👻" #There's only a small list of emojis you can choose but if you still want to use one of them, go
+                        #to assets/characters/vanish_character.txt
 SCREEN_TYPE = "Console"
 HIKU_POEM_FILE = "assets/poems.json"
+GREETING_MESSAGE = "Welcome to the Hiku Generator"
+GO_AWAY_MESSAGE = "OK, hope you liked the haiku's, goodbye!"
+YEAR = 2025
+TIMES_USED = 1
+DELAY = 1.5
 
