@@ -10,3 +10,27 @@ YEAR = 2025
 TIMES_USED = 1
 DELAY = 1.5
 
+
+#If attempting to run this
+
+import sys
+
+
+def empty():
+    empty_message = "Nothing to show"
+    print(empty_message)
+
+def do_nothing():
+    pass
+
+code = 0
+
+if code == 0:
+    empty()
+    sys.exit()
+
+if code == 1:
+    do_nothing()
+
+
+
